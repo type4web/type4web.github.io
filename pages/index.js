@@ -13,7 +13,7 @@ export default function Home() {
         <h1 className="title">
           Blog{' '}
           <Link href="/posts/first-post">
-            <a>Klaudiusz Skowronski</a>
+            <a>type 4 web</a>
           </Link>
         </h1>
 
@@ -22,10 +22,23 @@ export default function Home() {
         </p>
 
         <div className="grid">
+
+          <a href="https://github.com/marketplace/actions/deploy-to-github-pages" target="_blank" className="card">
+            <h3>Cloude &rarr;</h3>
+            <p>GitHub Pages Deploy Action 🚀</p>
+            <p>2021-04-25</p>
+          </a>
+
+          <a href="https://www.cloudflare.com/" target="_blank" className="card">
+            <h3>Web &rarr;</h3>
+            <p>The Web Performance & Security Company</p>
+            <p>2021-04-25</p>
+          </a>
+
           <a href="https://github.com/ClaudePlos" target="_blank" className="card">
             <h3>AWS &rarr;</h3>
-            <p>Fast generate code to AWS. TODO</p>
-            <p>2021-04-21</p>
+            <p>Fast generate code to AWS. (todo)</p>
+            <p>2021-04-..</p>
           </a>
 
           <a href="https://dataworkshop.eu/free-webinar?utm_source=youtube&utm_medium=description&utm_campaign=nlp2&utm_term=channel&utm_content=dataworkshop#joinwebinar" target="_blank" className="card">
@@ -62,7 +75,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}k.skowronski
+          Powered by{' '}Klaudiusz Skowronski
         </a>
       </footer>
 
@@ -110,7 +123,7 @@ export default function Home() {
         }
 
         .title a {
-          color: #0070f3;
+          color: #f38600;
           text-decoration: none;
         }
 
@@ -123,7 +136,7 @@ export default function Home() {
         .title {
           margin: 0;
           line-height: 1.15;
-          font-size: 3rem;
+          font-size: 4rem;
         }
 
         .title,
@@ -170,8 +183,8 @@ export default function Home() {
         .card:hover,
         .card:focus,
         .card:active {
-          color: #0070f3;
-          border-color: #0070f3;
+          color: #f38600;
+          border-color: #f38600;
         }
 
         .card h3 {
@@ -202,8 +215,7 @@ export default function Home() {
         body {
           padding: 0;
           margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+          font-family: ubuntu,trebuchet ms,Tahoma,Geneva,Verdana
             sans-serif;
         }
 
