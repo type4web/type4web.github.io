@@ -7,7 +7,7 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     env:
-      BASE_PATH: kskowronski
+      BASE_PATH: type4web
 
     steps:
       - name: Checkout
