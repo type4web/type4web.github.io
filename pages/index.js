@@ -23,6 +23,12 @@ export default function Home() {
 
         <div className="grid">
 
+        <a href="https://natto.dev/" target="_blank" className="card">
+            <h3>JS &rarr;</h3>
+            <p>A spatial canvas/playground for JavaScript</p>
+            <p>2021-04-26</p>
+          </a>
+
           <a href="https://github.com/marketplace/actions/deploy-to-github-pages" target="_blank" className="card">
             <h3>Cloude &rarr;</h3>
             <p>GitHub Pages Deploy Action 🚀</p>
