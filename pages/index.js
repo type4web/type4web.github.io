@@ -23,7 +23,13 @@ export default function Home() {
 
         <div className="grid">
 
-        <a href="https://natto.dev/" target="_blank" className="card">
+          <a href="/posts/p2021429" target="_blank" className="card">
+            <h3>Lambda function &rarr;</h3>
+            <p>AWS and lambda function</p>
+            <p>2021-04-29</p>
+          </a>
+
+          <a href="https://natto.dev/" target="_blank" className="card">
             <h3>JS &rarr;</h3>
             <p>A spatial canvas/playground for JavaScript</p>
             <p>2021-04-26</p>
@@ -160,8 +166,7 @@ export default function Home() {
           border-radius: 5px;
           padding: 0.75rem;
           font-size: 1.1rem;
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+          font-family: ubuntu, trebuchet ms, Tahoma, Geneva, Verdana, sans-serif, monospace;
         }
 
         .grid {
@@ -221,8 +226,7 @@ export default function Home() {
         body {
           padding: 0;
           margin: 0;
-          font-family: ubuntu,trebuchet ms,Tahoma,Geneva,Verdana
-            sans-serif;
+          font-family: ubuntu, trebuchet ms, Tahoma, Geneva, Verdana, sans-serif;
         }
 
         * {

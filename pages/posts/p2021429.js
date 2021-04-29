@@ -1,11 +1,14 @@
 import Link from 'next/link'
 
-export default function FirstPost() {
+export default function P2021429() {
     return (
         <>
         <div className="container">
-          <h1>Info about me:</h1>
-          <h1>mail: skowronki.klaudiusz@gmail.com</h1>
+          <h1>AWS</h1>
+          <p>
+          Today I show you example of fast write lamda functions in AWS.
+          <br></br>First od all you have to heve acount on AWS Cloud.
+          </p> 
           <h2>
             <Link href="/">
               <a>Back to main page</a>
@@ -17,8 +20,8 @@ export default function FirstPost() {
               padding: 0 0.5rem;
               display: flex;
               flex-direction: column;
-              justify-content: center;
-              align-items: center;
+              justify-content: left;
+              align-items: left;
             }
         `}</style>
         <style jsx global>{`
